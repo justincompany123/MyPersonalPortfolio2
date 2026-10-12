@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Ramos | Personal Portfolio</title>
+
+    <!-- Link to your existing CSS -->
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">JR.</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="role">BSIT Student | Web Developer</p>
+
+                <h1>Hello, I'm Justin Ramos.</h1>
+
+                <h2>Building ideas through technology.</h2>
+
+                <p>
+                    I'm an Information Technology student passionate
+                    about web development, databases, technology, and
+                    creative digital projects. I enjoy learning new
+                    skills and building useful digital solutions.
+                </p>
+
+                <a href="#projects">Explore My Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+
+            <div class="profile">
+                <img
+                    src="static/profile.jpg"
+                    alt="Justin Ramos profile photo"
+                >
+                <h2>Justin Ramos</h2>
+                <p>BS Information Technology Student</p>
+                <p>Web Development | Creative Technology</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am an IT student interested in programming,
+                database management, networking, and web development.
+                My goal is to continue improving my technical skills
+                through academic projects and hands-on experience.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Python Programming</li>
+                <li>Database Management</li>
+                <li>Networking Fundamentals</li>
+                <li>Web Development</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>
+                I build academic and personal projects involving
+                web development, databases, and technology.
+            </p>
+            <!-- Add your project cards here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Interested in my work? You can contact me through
+                my professional social profiles.
+            </p>
+            <a href="https://github.com/justincompany123">
+                Visit My GitHub
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Justin Ramos. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
